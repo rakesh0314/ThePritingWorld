@@ -1,193 +1,170 @@
-<!DOCTYPE html>
-<html>
-  <head>
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php echo $pageTitle; ?></title>
-    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <!-- Bootstrap 3.3.4 -->
-    <link href="<?php echo base_url(); ?>assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <!-- FontAwesome 4.3.0 -->
-    <link href="<?php echo base_url(); ?>assets/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <!-- Ionicons 2.0.0 -->
-    <link href="<?php echo base_url(); ?>assets/bower_components/Ionicons/css/ionicons.min.css" rel="stylesheet" type="text/css" />
-    <!-- Theme style -->
-    <link href="<?php echo base_url(); ?>assets/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
-    <!-- AdminLTE Skins. Choose a skin from the css/skins 
-         folder instead of downloading all of them to reduce the load. -->
-    <link href="<?php echo base_url(); ?>assets/dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
-    <style>
-    	.error{
-    		color:red;
-    		font-weight: normal;
-    	}
-    </style>
-    <script src="<?php echo base_url(); ?>assets/bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript">
-        var baseURL = "<?php echo base_url(); ?>";
-    </script>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Print World</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url(); ?>assets/dist/img/favicon.png">
     
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-  </head>
-  <body class="hold-transition skin-blue sidebar-mini">
-    <div class="wrapper">
-      
-      <header class="main-header">
-        <!-- Logo -->
-        <a href="<?php echo base_url(); ?>" class="logo">
-          <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>CI</b>AS</span>
-          <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>CodeInsect</b>AS</span>
-        </a>
-        <!-- Header Navbar: style can be found in header.less -->
-        <nav class="navbar navbar-static-top" role="navigation">
-          <!-- Sidebar toggle button-->
-          <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-            <span class="sr-only">Toggle navigation</span>
-          </a>
-          <div class="navbar-custom-menu">
-            <ul class="nav navbar-nav">
-              <li class="dropdown tasks-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-                  <i class="fa fa-history"></i>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="header"> Last Login : <i class="fa fa-clock-o"></i> <?= empty($last_login) ? "First Time Login" : $last_login; ?></li>
-                </ul>
-              </li>
-              <!-- User Account: style can be found in dropdown.less -->
-              <li class="dropdown user user-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="<?php echo base_url(); ?>assets/dist/img/avatar.png" class="user-image" alt="User Image"/>
-                  <span class="hidden-xs"><?php echo $name; ?></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <!-- User image -->
-                  <li class="user-header">
-                    
-                    <img src="<?php echo base_url(); ?>assets/dist/img/avatar.png" class="img-circle" alt="User Image" />
-                    <p>
-                      <?php echo $name; ?>
-                      <small><?php echo $role_text; ?></small>
-                    </p>
-                    
-                  </li>
-                  <!-- Menu Footer-->
-                  <li class="user-footer">
-                    <div class="pull-left">
-                      <a href="<?php echo base_url(); ?>profile" class="btn btn-warning btn-flat"><i class="fa fa-user-circle"></i> Profile</a>
+    <!-- CSS
+	============================================ -->
+   
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/css/bootstrap.min.css">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/css/icons.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/css/plugins.css">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dist/css/style.css">
+</head>
+
+<body>
+<header class="header-area clearfix header-hm9 transparent-bar">
+    <div class="container">
+        <div class="header-top-area">
+            <div class="row">
+                <div class="col-lg-5 col-md-8 col-12">
+                    <div class="language-currency-wrap">
+                        <div class="same-language-currency">
+                            <p><i class="fa fa-phone mr-10"></i>Call Us : 7389315709, 8770610397<br><br>
+                                <i class="fa fa-envelope mr-10"></i>printworld2626@gmail.com
+                            </p>
+                        </div>
                     </div>
-                    <div class="pull-right">
-                      <a href="<?php echo base_url(); ?>logout" class="btn btn-default btn-flat"><i class="fa fa-sign-out"></i> Sign out</a>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <div class="logo-hm9 text-center">
+                        <a href="index.html">
+                            <img alt="" src="<?php echo base_url(); ?>assets/dist/img/logo/logo.png">
+                        </a>
                     </div>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <!-- Left side column. contains the logo and sidebar -->
-      <aside class="main-sidebar">
-        <!-- sidebar: style can be found in sidebar.less -->
-        <section class="sidebar">
-          <!-- sidebar menu: : style can be found in sidebar.less -->
-          <ul class="sidebar-menu" data-widget="tree">
-            <li class="header">MAIN NAVIGATION</li>
-            <li>
-              <a href="<?php echo base_url(); ?>dashboard">
-                <i class="fa fa-dashboard"></i> <span>Dashboard</span></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" >
-                <i class="fa fa-plane"></i>
-                <span>New Task</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" >
-                <i class="fa fa-ticket"></i>
-                <span>My Tasks</span>
-              </a>
-            </li>
-            <li class="treeview">
-              <a href="#">
-                <i class="fa fa-share"></i> <span>Multilevel</span>
-                <span class="pull-right-container">
-                  <i class="fa fa-angle-left pull-right"></i>
-                </span>
-              </a>
-              <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-                <li class="treeview">
-                  <a href="#"><i class="fa fa-circle-o"></i> Level One
-                    <span class="pull-right-container">
-                      <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                  </a>
-                  <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
-                    <li class="treeview">
-                      <a href="#"><i class="fa fa-circle-o"></i> Level Two
-                        <span class="pull-right-container">
-                          <i class="fa fa-angle-left pull-right"></i>
-                        </span>
-                      </a>
-                      <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-              </ul>
-            </li>
-            <?php
-            if($role == ROLE_ADMIN || $role == ROLE_MANAGER)
-            {
-            ?>
-            <li>
-              <a href="#" >
-                <i class="fa fa-thumb-tack"></i>
-                <span>Task Status</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" >
-                <i class="fa fa-upload"></i>
-                <span>Task Uploads</span>
-              </a>
-            </li>
-            <?php
-            }
-            if($role == ROLE_ADMIN)
-            {
-            ?>
-            <li>
-              <a href="<?php echo base_url(); ?>userListing">
-                <i class="fa fa-users"></i>
-                <span>Users</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" >
-                <i class="fa fa-files-o"></i>
-                <span>Reports</span>
-              </a>
-            </li>
-            <?php
-            }
-            ?>
-          </ul>
-        </section>
-        <!-- /.sidebar -->
-      </aside>
+                </div>
+                <div class="col-lg-5 col-md-4 col-12">
+                    <div class="header-right-wrap">
+                        <div class="same-style header-search">
+                            <a class="search-active" href="#"><i class="pe-7s-search"></i></a>
+                            <div class="search-content">
+                                <form action="#">
+                                    <input type="text" placeholder="Search" />
+                                    <button class="button-search"><i class="pe-7s-search"></i></button>
+                                </form>
+                            </div> 
+                        </div>
+                        <div class="same-style account-satting">
+                            <a class="account-satting-active" href="#"><i class="pe-7s-user-female"></i></a>
+                            <div class="account-dropdown">
+                                <ul>
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Register</a></li>
+                                    <li><a href="#">Wishlist  </a></li>
+                                    <li><a href="#">my account</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="same-style header-wishlist">
+                            <a href="#"><i class="pe-7s-like"></i></a>
+                        </div>
+                        <div class="same-style cart-wrap">
+                            <button class="icon-cart">
+                                <i class="pe-7s-shopbag"></i>
+                                <span class="count-style">02</span>
+                            </button>
+                            <div class="shopping-cart-content">
+                                <ul>
+                                    <li class="single-shopping-cart">
+                                        <div class="shopping-cart-img">
+                                            <a href="#"><img alt="" src="<?php echo base_url(); ?>assets/dist/img/cart/cart-1.png"></a>
+                                        </div>
+                                        <div class="shopping-cart-title">
+                                            <h4><a href="#">T- Shart & Jeans </a></h4>
+                                            <h6>Qty: 02</h6>
+                                            <span>$260.00</span>
+                                        </div>
+                                        <div class="shopping-cart-delete">
+                                            <a href="#"><i class="fa fa-times-circle"></i></a>
+                                        </div>
+                                    </li>
+                                    <li class="single-shopping-cart">
+                                        <div class="shopping-cart-img">
+                                            <a href="#"><img alt="" src="<?php echo base_url(); ?>assets/dist/img/cart/cart-2.png"></a>
+                                        </div>
+                                        <div class="shopping-cart-title">
+                                            <h4><a href="#">T- Shart & Jeans </a></h4>
+                                            <h6>Qty: 02</h6>
+                                            <span>$260.00</span>
+                                        </div>
+                                        <div class="shopping-cart-delete">
+                                            <a href="#"><i class="fa fa-times-circle"></i></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="shopping-cart-total">
+                                    <h4>Shipping : <span>$20.00</span></h4>
+                                    <h4>Total : <span class="shop-total">$260.00</span></h4>
+                                </div>
+                                <div class="shopping-cart-btn btn-hover text-center">
+                                    <a class="default-btn" href="#">view cart</a>
+                                    <a class="default-btn" href="#">checkout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom sticky-bar header-res-padding header-padding-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-block d-lg-none">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img alt="" src="<?php echo base_url(); ?>assets/dist/img/logo/logo.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 d-none d-lg-block">
+                    <div class="main-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a>
+                                </li>
+                                
+                                <!-- <li><a href="#"> Real 4D </a></li> -->
+                                 <li><a href="#"> Shop </a></li>
+                                <li><a href="#"> Collection </a></li>
+                                <li><a href="product-details.html"> Products </a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu-area">
+                <div class="mobile-menu">
+                    <nav id="mobile-menu-active">
+                        <ul class="menu-overflow">
+                            <li><a href="index.html">HOME</a>
+                               
+                            </li>
+                            <!--  <li><a href="#"> Real 4D </a></li> -->
+                                <li><a href="#"> Shop </a></li>
+                                <li><a href="#"> Collection </a></li>
+                                <li><a href="#"> Products </a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
