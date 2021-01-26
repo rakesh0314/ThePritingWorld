@@ -48,7 +48,7 @@
             <div class="row">
                 <div class="col-xl-2 col-lg-2 col-md-6 col-4">
                     <div class="logo">
-                        <a href="index.php">
+                        <a href="index.html">
                             <img alt="" src="assets/img/logo/logo.png">
                         </a>
                     </div>
@@ -57,15 +57,15 @@
                     <div class="main-menu">
                         <nav>
                             <ul>
-                                <li><a href="index.php">Home</a>
+                                <li><a href="index.html">Home</a>
                                 </li>
                                 
                                 <!-- <li><a href="#"> Real 4D </a></li> -->
                                  <li><a href="#"> Shop </a></li>
                                 <li><a href="#"> Collection </a></li>
-                                <li><a href="#"> Products </a></li>
-                                <li><a href="about.php">About us</a></li>
-                                <li><a href="contact.php">Contact</a></li>
+                                <li><a href="product-details.html"> Products </a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -146,15 +146,15 @@
                 <div class="mobile-menu">
                     <nav id="mobile-menu-active">
                         <ul class="menu-overflow">
-                            <li><a href="index.php">HOME</a>
+                            <li><a href="index.html">HOME</a>
                                
                             </li>
                             <!--  <li><a href="#"> Real 4D </a></li> -->
                                 <li><a href="#"> Shop </a></li>
                                 <li><a href="#"> Collection </a></li>
                                 <li><a href="#"> Products </a></li>
-                                <li><a href="about.php">About us</a></li>
-                                <li><a href="contact.php">Contact</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -167,7 +167,7 @@
         <div class="breadcrumb-content text-center">
             <ul>
                 <li>
-                    <a href="index.php">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li class="active">About us </li>
             </ul>
@@ -179,7 +179,7 @@
     <div class="container">
         <div class="welcome-content text-center">
             <h5>Who Are We</h5>
-            <h1>Welcome To Flone</h1>
+            <h1>Welcome To Print World</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo consequat irure </p>
         </div>
     </div>
@@ -226,19 +226,19 @@
             <div class="col-lg-4 col-md-4">
                 <div class="single-mission mb-30">
                     <h3>Our vission</h3>
-                    <p>Flone provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth.</p>
+                    <p>Print World provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="single-mission mb-30">
                     <h3>Our mission </h3>
-                    <p>Flone provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth.</p>
+                    <p>Print World provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="single-mission mb-30">
                     <h3>Our goal</h3>
-                    <p>Flone provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth.</p>
+                    <p>Print World provide how all this mistaken idea of denounc pleasure and sing pain was born an will give you a ete account of the system, and expound the actual teangs the eat explorer of the truth.</p>
                 </div>
             </div>
         </div>
@@ -419,7 +419,7 @@
             <div class="col-lg-2 col-md-4 col-sm-4">
                 <div class="copyright mb-30">
                     <div class="footer-logo">
-                        <a href="index.php">
+                        <a href="index.html">
                             <img alt="" src="assets/img/logo/logo.png">
                         </a>
                     </div>
@@ -433,9 +433,9 @@
                     </div>
                     <div class="footer-list">
                         <ul>
-                            <li><a href="about.php">About us</a></li>
+                            <li><a href="about.html">About us</a></li>
                             <li><a href="#">Products</a></li>
-                            <li><a href="contact.php">Contact</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                             <li><a href="#">Orders tracking</a></li>
                         </ul>
                     </div>
