@@ -7,7 +7,7 @@
                     <div class="col-lg-6 col-md-6 col-12 col-sm-6">
                         <div class="slider-content-7 slider-animated-1">
                             <h3 class="animated">New Arrival</h3>
-                            <h1 class="animated">New Design <br>Bluetooth Speaker</h1>
+                            <h1 class="animated">New Design <br>Customized Gifts</h1>
                             <div class="slider-btn-9 btn-hover">
                                 <a class="animated" href="#">SHOP NOW</a>
                             </div>
@@ -27,7 +27,7 @@
                     <div class="col-lg-6 col-md-6 col-12 col-sm-6">
                         <div class="slider-content-7 slider-animated-1">
                             <h3 class="animated">New Arrival</h3>
-                            <h1 class="animated">New Design <br>Bluetooth Speaker</h1>
+                            <h1 class="animated">Gifts <br>By Occassion</h1>
                             <div class="slider-btn-9 btn-hover">
                                 <a class="animated" href="#">SHOP NOW</a>
                             </div>
@@ -48,32 +48,32 @@
         <div class="collection-wrap-2">
             <div class="collection-active-2 owl-carousel owl-dot-none">
                 <div class="collection-product-2">
-                    <a href="#"><img src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-cagi-1.jpg" alt=""></a>
-                    <div class="collection-content-2 text-center">
+                    <a href="#"><img src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-cagi-2.jpg" alt=""></a>
+                   <!--  <div class="collection-content-2 text-center">
                         <span>4 Products</span>
                         <h4><a href="#">Bluetooth Speaker</a></h4>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="collection-product-2">
-                    <a href="#"><img src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-cagi-2.jpg" alt=""></a>
-                    <div class="collection-content-2 text-center">
+                    <a href="#"><img src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-cagi-1.jpg" alt=""></a>
+                   <!--  <div class="collection-content-2 text-center">
                         <span>8 Products</span>
                         <h4><a href="#">Bluetooth Headphone</a></h4>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="collection-product-2">
                     <a href="#"><img src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-cagi-3.jpg" alt=""></a>
-                    <div class="collection-content-2 text-center">
+                    <!-- <div class="collection-content-2 text-center">
                         <span>9 Products</span>
                         <h4><a href="#"> Kardon Aura Studio</a></h4>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="collection-product-2">
                     <a href="#"><img src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-cagi-2.jpg" alt=""></a>
-                    <div class="collection-content-2 text-center">
+                    <!-- <div class="collection-content-2 text-center">
                         <span>4 Products</span>
                         <h4><a href="#">Bluetooth Speaker</a></h4>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -115,13 +115,14 @@
                                 <span class="glaucous">-10%</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                   <!--  <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a> -->
+                                    <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 60.00</span>
                                         <span class="old">$ 60.00</span>
@@ -142,13 +143,14 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                   <!--  <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a> -->
+                                    <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 20.00</span>
                                     </div>
@@ -169,13 +171,13 @@
                                 <span class="glaucous">New</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 30.00</span>
                                     </div>
@@ -195,13 +197,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 40.00</span>
                                     </div>
@@ -222,13 +224,13 @@
                                 <span class="glaucous">-20%</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 50.00</span>
                                         <span class="old">$ 70.00</span>
@@ -249,13 +251,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 50.00</span>
                                     </div>
@@ -276,13 +278,13 @@
                                 <span class="glaucous">New</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 60.00</span>
                                     </div>
@@ -302,13 +304,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 70.00</span>
                                     </div>
@@ -329,13 +331,13 @@
                                 <span class="glaucous">-30%</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 20.00</span>
                                         <span class="old">$ 50.00</span>
@@ -356,13 +358,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 60.00</span>
                                         <span class="old">$ 60.00</span>
@@ -388,13 +390,13 @@
                                 <span class="glaucous">-10%</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 60.00</span>
                                         <span class="old">$ 60.00</span>
@@ -415,13 +417,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 20.00</span>
                                     </div>
@@ -442,13 +444,13 @@
                                 <span class="glaucous">New</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 30.00</span>
                                     </div>
@@ -468,13 +470,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 40.00</span>
                                     </div>
@@ -495,13 +497,13 @@
                                 <span class="glaucous">-20%</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 50.00</span>
                                         <span class="old">$ 70.00</span>
@@ -522,13 +524,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 50.00</span>
                                     </div>
@@ -549,13 +551,13 @@
                                 <span class="glaucous">New</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 60.00</span>
                                     </div>
@@ -575,13 +577,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 70.00</span>
                                     </div>
@@ -602,13 +604,13 @@
                                 <span class="glaucous">-30%</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 20.00</span>
                                         <span class="old">$ 50.00</span>
@@ -629,13 +631,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 60.00</span>
                                         <span class="old">$ 60.00</span>
@@ -661,13 +663,13 @@
                                 <span class="glaucous">-10%</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 60.00</span>
                                         <span class="old">$ 60.00</span>
@@ -688,13 +690,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 20.00</span>
                                     </div>
@@ -715,13 +717,13 @@
                                 <span class="glaucous">New</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 30.00</span>
                                     </div>
@@ -741,13 +743,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 40.00</span>
                                     </div>
@@ -768,13 +770,13 @@
                                 <span class="glaucous">-20%</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 50.00</span>
                                         <span class="old">$ 70.00</span>
@@ -795,13 +797,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 50.00</span>
                                     </div>
@@ -822,13 +824,13 @@
                                 <span class="glaucous">New</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 60.00</span>
                                     </div>
@@ -848,13 +850,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 70.00</span>
                                     </div>
@@ -875,13 +877,13 @@
                                 <span class="glaucous">-30%</span>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 20.00</span>
                                         <span class="old">$ 50.00</span>
@@ -902,13 +904,13 @@
                                 </a>
                                 <div class="product-action-2">
                                     <a title="Add To Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
-                                    <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-eye"></i></a>
+                                     <a title="Quick View" href="<?= base_url() ?>Products"><i class="fa fa-eye"></i></a>
                                     <a title="Compare" href="#"><i class="fa fa-retweet"></i></a>
                                 </div>
                             </div>
                             <div class="product-content-2">
                                 <div class="title-price-wrap-2">
-                                    <h3><a href="#">Product Title Here</a></h3>
+                                    <h3><a href="#">Customized Photo Frames</a></h3>
                                     <div class="price-2">
                                         <span>$ 60.00</span>
                                         <span class="old">$ 60.00</span>

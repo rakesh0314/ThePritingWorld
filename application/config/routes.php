@@ -91,7 +91,13 @@ $route['resetPasswordConfirmUser/(:any)'] = "login/resetPasswordConfirmUser/$1";
 $route['resetPasswordConfirmUser/(:any)/(:any)'] = "login/resetPasswordConfirmUser/$1/$2";
 $route['createPasswordUser'] = "login/createPasswordUser";
 
-
+$route['About'] = 'Enduser/about';
+$route['Contact'] = 'Enduser/contact';
+$route['Products'] = 'Enduser/products';
+$route['About'] = 'Enduser/about';
+$route['Cart'] = 'Enduser/cart';
+$route['Login'] = 'Enduser/login';
+$route['Checkout'] = 'Enduser/checkout';
 /* eND-uSER Routes */
 
 	// $route['home'] = 'enduser';

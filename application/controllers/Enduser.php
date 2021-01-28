@@ -52,6 +52,24 @@ class Enduser extends BaseController
         
         $this->loadViewsEndUser("enduser/products", $this->global, NULL , NULL);
     }
+    public function cart(){
+        
+         $this->global['pageTitle'] = 'The Printing World : products';
+        
+        $this->loadViewsEndUser("enduser/cart-page", $this->global, NULL , NULL);
+    }
+    public function login(){
+        
+         $this->global['pageTitle'] = 'The Printing World : products';
+        
+        $this->loadViewsEndUser("enduser/login-register", $this->global, NULL , NULL);
+    }
+    public function checkout(){
+        
+         $this->global['pageTitle'] = 'The Printing World : products';
+        
+        $this->loadViewsEndUser("enduser/checkout", $this->global, NULL , NULL);
+    }
 
 }
 
