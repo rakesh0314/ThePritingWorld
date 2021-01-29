@@ -6,7 +6,7 @@ $this->load->view('enduser/includes/header1');
         <div class="breadcrumb-content text-center">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="<?= base_url() ?>">Home</a>
                 </li>
                 <li class="active">Shop Details </li>
             </ul>
@@ -305,7 +305,7 @@ $this->load->view('enduser/includes/header1');
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html">T- Shirt And Jeans</a></h3>
+                    <h3><a href="<?= base_url() ?>Products">T- Shirt And Jeans</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -321,7 +321,7 @@ $this->load->view('enduser/includes/header1');
             </div>
             <div class="product-wrap">
                 <div class="product-img">
-                    <a href="single-product.html">
+                    <a href="<?= base_url() ?>Products">
                         <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-2.jpg" alt="">
                         <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-2-1.jpg" alt="">
                     </a>
@@ -339,7 +339,7 @@ $this->load->view('enduser/includes/header1');
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html">T- Shirt And Jeans</a></h3>
+                    <h3><a href="<?= base_url() ?>Products">T- Shirt And Jeans</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -372,7 +372,7 @@ $this->load->view('enduser/includes/header1');
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html">T- Shirt And Jeans</a></h3>
+                    <h3><a href="<?= base_url() ?>Products">T- Shirt And Jeans</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -406,7 +406,7 @@ $this->load->view('enduser/includes/header1');
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html">T- Shirt And Jeans</a></h3>
+                    <h3><a href="<?= base_url() ?>Products">T- Shirt And Jeans</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -439,7 +439,7 @@ $this->load->view('enduser/includes/header1');
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="product-details.html">T- Shirt And Jeans</a></h3>
+                    <h3><a href="<?= base_url() ?>Products">T- Shirt And Jeans</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>

@@ -113,6 +113,12 @@ class BaseController extends CI_Controller {
         $this->load->view($viewName, $pageInfo);
         $this->load->view('enduser/includes/footer', $footerInfo);
     }
+    // function loadViewsEndUser1($viewName = "", $headerInfo = NULL, $pageInfo = NULL, $footerInfo = NULL){
+
+    //     $this->load->view('enduser/includes/header1', $headerInfo);
+    //     $this->load->view($viewName, $pageInfo);
+    //     $this->load->view('enduser/includes/footer', $footerInfo);
+    // }
 	
 	/**
 	 * This function used provide the pagination resources

@@ -6,7 +6,7 @@ $this->load->view('enduser/includes/header1');
         <div class="breadcrumb-content text-center">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="<?= base_url() ?>">Home</a>
                 </li>
                 <li class="active">login/Register </li>
             </ul>

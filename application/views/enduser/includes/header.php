@@ -41,7 +41,7 @@
                 </div>
                 <div class="col-lg-2 d-none d-lg-block">
                     <div class="logo-hm9 text-center">
-                        <a href="index.html">
+                        <a href="<?= base_url() ?>">
                             <img alt="" src="<?= base_url() ?>assets/enduser/assets/img/logo/logo.png">
                         </a>
                     </div>
@@ -125,7 +125,7 @@
             <div class="row">
                 <div class="col-12 d-block d-lg-none">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="<?= base_url() ?>">
                             <img alt="" src="<?= base_url() ?>assets/enduser/assets/img/logo/logo.png">
                         </a>
                     </div>

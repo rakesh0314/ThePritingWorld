@@ -4,7 +4,7 @@
             <div class="col-lg-2 col-md-4 col-sm-4">
                 <div class="copyright mb-30">
                     <div class="footer-logo">
-                        <a href="index.html">
+                        <a href="<?= base_url() ?>">
                             <img alt="" src="<?= base_url() ?>assets/enduser/assets/img/logo/logo.png">
                         </a>
                     </div>
@@ -18,9 +18,9 @@
                     </div>
                     <div class="footer-list">
                         <ul>
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="<?= base_url() ?>About">About us</a></li>
+                            <li><a href="<?= base_url() ?>Products">Products</a></li>
+                            <li><a href="<?= base_url() ?>Contact">Contact</a></li>
                             <li><a href="#">Orders tracking</a></li>
                         </ul>
                     </div>
