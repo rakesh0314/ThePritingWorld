@@ -10,19 +10,19 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="<?= base_url() ?>assets/enduser/assets/img/favicon.png"> -->
     
     <!-- CSS
 	============================================ -->
    
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/enduser/assets/css/bootstrap.min.css">
     <!-- Icon Font CSS -->
-    <link rel="stylesheet" href="assets/css/icons.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/enduser/assets/css/icons.min.css">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/enduser/assets/css/plugins.css">
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>assets/enduser/assets/css/style.css">
 </head>
 
 <body>

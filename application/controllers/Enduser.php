@@ -18,7 +18,7 @@ class Enduser extends BaseController
     {
         parent::__construct();
         $this->load->model('user_model');
-        $this->isLoggedIn();   
+        // $this->isLoggedIn();   
     }
     
     /**
@@ -29,7 +29,7 @@ class Enduser extends BaseController
         
          $this->global['pageTitle'] = 'The Printing World : home';
         
-        $this->loadViewsEndUser("enduser/home", $this->global, NULL , NULL);
+        $this->loadViewsEndUserindex("enduser/home", $this->global, NULL , NULL);
     }
 
     public function about(){

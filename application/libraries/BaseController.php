@@ -107,9 +107,15 @@ class BaseController extends CI_Controller {
         $this->load->view('includes/footer', $footerInfo);
     }
 
-    function loadViewsEndUser($viewName = "", $headerInfo = NULL, $pageInfo = NULL, $footerInfo = NULL){
+    function loadViewsEndUserindex($viewName = "", $headerInfo = NULL, $pageInfo = NULL, $footerInfo = NULL){
 
         $this->load->view('enduser/includes/header', $headerInfo);
+        $this->load->view($viewName, $pageInfo);
+        $this->load->view('enduser/includes/footer', $footerInfo);
+    }
+    function loadViewsEndUser($viewName = "", $headerInfo = NULL, $pageInfo = NULL, $footerInfo = NULL){
+
+        $this->load->view('enduser/includes/header1', $headerInfo);
         $this->load->view($viewName, $pageInfo);
         $this->load->view('enduser/includes/footer', $footerInfo);
     }
