@@ -79,7 +79,7 @@
                             <li>- Very modern style  </li>
                         </ul>
                     </div>
-                    <div class="pro-details-size-color">
+                    <!-- <div class="pro-details-size-color">
                         <div class="pro-details-color-wrap">
                             <span>Color</span>
                             <div class="pro-details-color-content">
@@ -104,7 +104,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="pro-details-quality">
                         <div class="cart-plus-minus">
                             <input class="cart-plus-minus-box" type="text" name="qtybutton" value="2">
