@@ -83,9 +83,10 @@
 <div class="welcome-area pb-90">
     <div class="container">
         <div class="welcome-content text-center">
-            <h5>Who Are We</h5>
-            <h1>Welcome To Print World</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo consequat irure </p>
+        	<h1>Our Products</h1>
+            <!-- <h5>Who Are We</h5> -->
+            <!-- <h1>Welcome To Print World</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo consequat irure </p> -->
         </div>
     </div>
 </div>
@@ -105,7 +106,7 @@
         <div class="tab-content jump">
             <div class="tab-pane" id="product-1">
                 <div class="custom-row-4">
-                    <div class="custom2-col-5">
+                    <div class="custom2-col-5 col-sm-6 col-xs-6">
                         <div class="product-wrap-2 pro-glaucous-color mb-35">
                             <div class="product-img">
                                 <a href="#">
@@ -134,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="custom2-col-5">
+                    <div class="custom2-col-5 col-sm-6 col-xs-6">
                         <div class="product-wrap-2 pro-glaucous-color mb-35">
                             <div class="product-img">
                                 <a href="#">

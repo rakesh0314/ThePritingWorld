@@ -1,4 +1,17 @@
-
+<style type="text/css">
+    
+     @media screen and (min-width :315px) and (max-width :768px) {
+         .owl-carousel.owl-drag .owl-item{
+                width: 150px !important;
+                -ms-touch-action: pan-y;
+                touch-action: pan-y;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+     }
+</style>
 <div class="breadcrumb-area pt-35 pb-35 bg-gray-3">
     <div class="container">
         <div class="breadcrumb-content text-center">
