@@ -106,7 +106,7 @@
         <div class="tab-content jump">
             <div class="tab-pane" id="product-1">
                 <div class="custom-row-4">
-                    <div class="custom2-col-5 col-sm-6 col-xs-6">
+                    <div class="custom2-col-5">
                         <div class="product-wrap-2 pro-glaucous-color mb-35">
                             <div class="product-img">
                                 <a href="#">
@@ -135,7 +135,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="custom2-col-5 col-sm-6 col-xs-6">
+                    <div class="custom2-col-5">
                         <div class="product-wrap-2 pro-glaucous-color mb-35">
                             <div class="product-img">
                                 <a href="#">
