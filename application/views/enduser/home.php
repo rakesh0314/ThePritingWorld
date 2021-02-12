@@ -79,8 +79,8 @@
         </div>
     </div>
 </div>
-<marquee><img style="width: 150px" src="<?= base_url() ?>assets/enduser/assets/shopping.gif"></marquee>
-<div class="welcome-area pb-90">
+<!-- <marquee><img style="width: 150px" src="<?= base_url() ?>assets/enduser/assets/shopping.gif"></marquee> -->
+<div class="welcome-area pt-50" style="background-color: #eaeded">
     <div class="container">
         <div class="welcome-content text-center">
         	<h1>Our Products</h1>
@@ -90,7 +90,7 @@
         </div>
     </div>
 </div>
-<div class="product-area pb-60 hm9-section-padding">
+<div class="product-area pb-60 hm9-section-padding sec10">
     <div class="container-fluid">
         <div class="product-tab-list nav pb-55 text-center">
             <a href="#product-1" data-toggle="tab" >
@@ -928,7 +928,185 @@
         </div>
     </div>
 </div>
-<div class="banner-area pb-100">
+<div class="related-product-area pb-95 sec11">
+    <div class="container">
+        <div class="section-title text-center mb-50">
+            <h2>Other products</h2>
+        </div>
+        <div class="collection-active owl-carousel owl-dot-none owl-loaded owl-drag">
+            <div class="product-wrap">
+                <div class="product-img">
+                    <a href="#">
+                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-8.jpg" alt="">
+                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-8.jpg" alt="">
+                    </a>
+                    <span class="pink">-10%</span>
+                    <div class="product-action">
+                        <div class="pro-same-action pro-wishlist">
+                            <a title="Wishlist" href="#"><i class="pe-7s-like"></i></a>
+                        </div>
+                        <div class="pro-same-action pro-cart">
+                            <a title="Add To Cart" href="#"><i class="pe-7s-cart"></i> Add to cart</a>
+                        </div>
+                        <div class="pro-same-action pro-quickview">
+                            <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="pe-7s-look"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-content text-center">
+                    <h3><a href="product-details.html">Customized Photo Frames</a></h3>
+                    <div class="product-rating">
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <div class="product-price">
+                        <span>$ 60.00</span>
+                        <span class="old">$ 60.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-wrap">
+                <div class="product-img">
+                    <a href="single-product.html">
+                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-7.jpg" alt="">
+                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-7.jpg" alt="">
+                    </a>
+                    <span class="purple">New</span>
+                    <div class="product-action">
+                        <div class="pro-same-action pro-wishlist">
+                            <a title="Wishlist" href="#"><i class="pe-7s-like"></i></a>
+                        </div>
+                        <div class="pro-same-action pro-cart">
+                            <a title="Add To Cart" href="#"><i class="pe-7s-cart"></i> Add to cart</a>
+                        </div>
+                        <div class="pro-same-action pro-quickview">
+                            <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="pe-7s-look"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-content text-center">
+                    <h3><a href="product-details.html">Customized Photo Framess</a></h3>
+                    <div class="product-rating">
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <div class="product-price">
+                        <span>$ 60.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-wrap">
+                <div class="product-img">
+                    <a href="#">
+                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-6.jpg" alt="">
+                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-6.jpg" alt="">
+                    </a>
+                    <span class="pink">-10%</span>
+                    <div class="product-action">
+                        <div class="pro-same-action pro-wishlist">
+                            <a title="Wishlist" href="#"><i class="pe-7s-like"></i></a>
+                        </div>
+                        <div class="pro-same-action pro-cart">
+                            <a title="Add To Cart" href="#"><i class="pe-7s-cart"></i> Add to cart</a>
+                        </div>
+                        <div class="pro-same-action pro-quickview">
+                            <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="pe-7s-look"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-content text-center">
+                    <h3><a href="product-details.html">Customized Photo Frames</a></h3>
+                    <div class="product-rating">
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <div class="product-price">
+                        <span>$ 60.00</span>
+                        <span class="old">$ 60.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-wrap">
+                <div class="product-img">
+                    <a href="#">
+                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-5.jpg" alt="">
+                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-5.jpg" alt="">
+                    </a>
+                    <span class="purple">New</span>
+                    <div class="product-action">
+                        <div class="pro-same-action pro-wishlist">
+                            <a title="Wishlist" href="#"><i class="pe-7s-like"></i></a>
+                        </div>
+                        <div class="pro-same-action pro-cart">
+                            <a title="Add To Cart" href="#"><i class="pe-7s-cart"></i> Add to cart</a>
+                        </div>
+                        <div class="pro-same-action pro-quickview">
+                            <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="pe-7s-look"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-content text-center">
+                    <h3><a href="product-details.html">Customized Photo Frames</a></h3>
+                    <div class="product-rating">
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <div class="product-price">
+                        <span>$ 60.00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-wrap">
+                <div class="product-img">
+                    <a href="#">
+                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-4.jpg" alt="">
+                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-4.jpg" alt="">
+                    </a>
+                    <span class="pink">-10%</span>
+                    <div class="product-action">
+                        <div class="pro-same-action pro-wishlist">
+                            <a title="Wishlist" href="#"><i class="pe-7s-like"></i></a>
+                        </div>
+                        <div class="pro-same-action pro-cart">
+                            <a title="Add To Cart" href="#"><i class="pe-7s-cart"></i> Add to cart</a>
+                        </div>
+                        <div class="pro-same-action pro-quickview">
+                            <a title="Quick View" href="#" data-toggle="modal" data-target="#exampleModal"><i class="pe-7s-look"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-content text-center">
+                    <h3><a href="product-details.html">Customized Photo Frames</a></h3>
+                    <div class="product-rating">
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o yellow"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <div class="product-price">
+                        <span>$ 60.00</span>
+                        <span class="old">$ 60.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="banner-area pb-100">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4">
@@ -1044,8 +1222,8 @@
         </div>
                       
     </div>
-</div>
-<div class="testimonial-area bg-gray-3 pt-100 pb-95 ml-70 mr-70">
+</div> -->
+<!-- <div class="testimonial-area bg-gray-3 pt-100 pb-95 ml-70 mr-70">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 ml-auto mr-auto">
@@ -1072,7 +1250,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <div class="brand-logo-area pt-100 pb-95">
     <div class="container">
         <div class="brand-logo-active owl-carousel owl-dot-none">
@@ -1094,7 +1272,7 @@
         </div>
     </div>
 </div>
-<div class="blog-area pb-55">
+<!-- <div class="blog-area pb-55">
     <div class="container">
         <div class="section-title-2 text-center mb-60">
             <h2>Our Blog</h2>
@@ -1145,4 +1323,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->

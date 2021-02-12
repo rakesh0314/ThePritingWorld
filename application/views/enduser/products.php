@@ -27,44 +27,37 @@
 <div class="shop-area pt-100 pb-100">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <div class="product-details">
-                    <div class="product-details-img">
-                        <div class="tab-content jump"> 
-                            <div id="shop-details-1" class="tab-pane large-img-style">
-                                <img src="<?= base_url() ?>assets/enduser/assets/img/product-details/large-1.jpg" alt="">
-                                <span class="dec-price">-10%</span>
-                                <div class="img-popup-wrap">
-                                    <a class="img-popup" href="<?= base_url() ?>assets/enduser/assets/img/product-details/b-large-1.jpg"><i class="pe-7s-expand1"></i></a>
-                                </div>
-                            </div>
-                            <div id="shop-details-2" class="tab-pane active large-img-style">
-                                <img src="<?= base_url() ?>assets/enduser/assets/img/product-details/large-2.jpg" alt="">
-                                <span class="dec-price">-10%</span>
-                                <div class="img-popup-wrap">
-                                    <a class="img-popup" href="<?= base_url() ?>assets/enduser/assets/img/product-details/b-large-2.jpg"><i class="pe-7s-expand1"></i></a>
-                                </div>
-                            </div>
-                            <div id="shop-details-3" class="tab-pane large-img-style">
-                                <img src="<?= base_url() ?>assets/enduser/assets/img/product-details/large-3.jpg" alt="">
-                                <span class="dec-price">-10%</span>
-                                <div class="img-popup-wrap">
-                                    <a class="img-popup" href="<?= base_url() ?>assets/enduser/assets/img/product-details/b-large-3.jpg"><i class="pe-7s-expand1"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="shop-details-tab nav">
-                            <a class="shop-details-overly" href="#shop-details-1" data-toggle="tab">
-                                <img src="<?= base_url() ?>assets/enduser/assets/img/product-details/small-1.jpg" alt="">
-                            </a>
-                            <a class="shop-details-overly active" href="#shop-details-2" data-toggle="tab">
-                                <img src="<?= base_url() ?>assets/enduser/assets/img/product-details/small-1.jpg" alt="">
-                            </a>
-                            <a class="shop-details-overly" href="#shop-details-3" data-toggle="tab">
-                                <img src="<?= base_url() ?>assets/enduser/assets/img/product-details/small-1.jpg" alt="">
-                            </a>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+                <div class="product-details-img mr-20 product-details-tab">
+                   <div class="zoompro-wrap zoompro-21 pr-20">
+                        <div class="zoompro-border zoompro-span">
+                            <img class="zoompro" src="<?= base_url() ?>assets/enduser/assets/img/product-details/large-2.jpg" data-zoom-image="<?= base_url() ?>assets/enduser/assets/img/product-details/large-2.jpg" alt=""/>          
+                            <span>-29%</span>
+                            <!-- <div class="product-video">
+                                <a class="video-popup" href="https://www.youtube.com/watch?v=tce_Ap96b0c">
+                                    <i class="fa fa-video-camera"></i>
+                                    View Video
+                                </a>
+                            </div> -->
                         </div>
                     </div>
+                    <!-- <div id="gallery" class="product-dec-slider-2">
+                        <a data-image="assets/img/product-details/product-detalis-l1.jpg" data-zoom-image="assets/img/product-details/product-detalis-bl1.jpg">
+                            <img src="assets/img/product-details/product-detalis-s6.jpg" alt="">
+                        </a>
+                        <a data-image="assets/img/product-details/product-detalis-l2.jpg" data-zoom-image="assets/img/product-details/product-detalis-bl2.jpg">
+                            <img src="assets/img/product-details/product-detalis-s7.jpg" alt="">
+                        </a>
+                        <a data-image="assets/img/product-details/product-detalis-l3.jpg" data-zoom-image="assets/img/product-details/product-detalis-bl3.jpg">
+                            <img src="assets/img/product-details/product-detalis-s9.jpg" alt="">
+                        </a>
+                        <a data-image="assets/img/product-details/product-detalis-l5.jpg" data-zoom-image="assets/img/product-details/product-detalis-bl5.jpg">
+                            <img src="assets/img/product-details/product-detalis-s8.jpg" alt="">
+                        </a> 
+                        <a data-image="assets/img/product-details/product-detalis-l5.jpg" data-zoom-image="assets/img/product-details/product-detalis-bl5.jpg">
+                            <img src="assets/img/product-details/product-detalis-s8.jpg" alt="">
+                        </a> 
+                    </div> -->
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
@@ -299,8 +292,8 @@
             <div class="product-wrap">
                 <div class="product-img">
                     <a href="#">
-                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-1.jpg" alt="">
-                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-1-1.jpg" alt="">
+                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-4.jpg" alt="">
+                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-4.jpg" alt="">
                     </a>
                     <span class="pink">-10%</span>
                     <div class="product-action">
@@ -316,7 +309,7 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="<?= base_url() ?>Products">T- Shirt And Jeans</a></h3>
+                    <h3><a href="<?= base_url() ?>Products">Customized Photo Frames</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -333,8 +326,8 @@
             <div class="product-wrap">
                 <div class="product-img">
                     <a href="<?= base_url() ?>Products">
-                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-2.jpg" alt="">
-                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-2-1.jpg" alt="">
+                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-3.jpg" alt="">
+                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-3.jpg" alt="">
                     </a>
                     <span class="purple">New</span>
                     <div class="product-action">
@@ -350,7 +343,7 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="<?= base_url() ?>Products">T- Shirt And Jeans</a></h3>
+                    <h3><a href="<?= base_url() ?>Products">Customized Photo Frames</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -366,8 +359,8 @@
             <div class="product-wrap">
                 <div class="product-img">
                     <a href="#">
-                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-3.jpg" alt="">
-                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-3-1.jpg" alt="">
+                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-2.jpg" alt="">
+                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-2.jpg" alt="">
                     </a>
                     <span class="pink">-10%</span>
                     <div class="product-action">
@@ -383,7 +376,7 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="<?= base_url() ?>Products">T- Shirt And Jeans</a></h3>
+                    <h3><a href="<?= base_url() ?>Products">Customized Photo Frames</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -400,8 +393,8 @@
             <div class="product-wrap">
                 <div class="product-img">
                     <a href="#">
-                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-4.jpg" alt="">
-                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-4-1.jpg" alt="">
+                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-1.jpg" alt="">
+                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-1.jpg" alt="">
                     </a>
                     <span class="purple">New</span>
                     <div class="product-action">
@@ -417,7 +410,7 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="<?= base_url() ?>Products">T- Shirt And Jeans</a></h3>
+                    <h3><a href="<?= base_url() ?>Products">Customized Photo Frames</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>
@@ -433,8 +426,8 @@
             <div class="product-wrap">
                 <div class="product-img">
                     <a href="#">
-                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-5.jpg" alt="">
-                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/pro-5-1.jpg" alt="">
+                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-5.jpg.jpg" alt="">
+                        <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-5.jpg" alt="">
                     </a>
                     <span class="pink">-10%</span>
                     <div class="product-action">
@@ -450,7 +443,7 @@
                     </div>
                 </div>
                 <div class="product-content text-center">
-                    <h3><a href="<?= base_url() ?>Products">T- Shirt And Jeans</a></h3>
+                    <h3><a href="<?= base_url() ?>Products">Customized Photo Frames</a></h3>
                     <div class="product-rating">
                         <i class="fa fa-star-o yellow"></i>
                         <i class="fa fa-star-o yellow"></i>

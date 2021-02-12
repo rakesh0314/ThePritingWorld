@@ -11,7 +11,7 @@
         </div>
     </div>
 </div>
-<marquee><img style="width: 150px" src="<?= base_url() ?>assets/enduser/assets/shopping.gif"></marquee>
+<!-- <marquee><img style="width: 150px" src="<?= base_url() ?>assets/enduser/assets/shopping.gif"></marquee> -->
 <div class="welcome-area pt-50 pb-95">
     <div class="container">
         <div class="welcome-content text-center">
