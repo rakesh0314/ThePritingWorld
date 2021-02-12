@@ -426,7 +426,7 @@
             <div class="product-wrap">
                 <div class="product-img">
                     <a href="#">
-                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-5.jpg.jpg" alt="">
+                        <img class="default-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-5.jpg" alt="">
                         <img class="hover-img" src="<?= base_url() ?>assets/enduser/assets/img/product/hm9-pro-5.jpg" alt="">
                     </a>
                     <span class="pink">-10%</span>

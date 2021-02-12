@@ -12308,8 +12308,23 @@ h3.cart-page-title {
                   -webkit-box-flex: 0;
                   -ms-flex: 0 0 100%;
                   flex: 0 0 100%;
-                  max-width: 50%;
+                  max-width: 100%;
               }
-
+              .sec10{
+	background-color: #eaeded;
+    /* padding-left: 10px; */
+    margin : 0px 0px;
+}
+.sec11{
+	background-color: #eaeded;
+    /* padding-left: 10px; */
+    margin : 0px 0px;
+}
+.hm9-section-padding div[class^="custom2-"] {
+    margin: 10px 0px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
              
           }
