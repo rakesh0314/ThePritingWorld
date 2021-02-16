@@ -80,7 +80,7 @@
     </div>
 </div>
 <!-- <marquee><img style="width: 150px" src="<?= base_url() ?>assets/enduser/assets/shopping.gif"></marquee> -->
-<div class="welcome-area pt-50" style="background-color: #eaeded">
+<div class="welcome-area pt-50">
     <div class="container">
         <div class="welcome-content text-center">
         	<h1>Our Products</h1>
